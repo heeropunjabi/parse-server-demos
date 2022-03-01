@@ -1,0 +1,12 @@
+{
+  "name": "demo",
+  "description": "parse-server for demo",
+  "scripts": {
+    "start": "parse-server config.json",
+    "start-dashboard": "parse-dashboard --config parse-dashboard-config.json"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "parse-server": "^3.9.0"
+  }
+}
